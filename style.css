@@ -11,6 +11,9 @@
     justify-content: space-between;
 /* Positioning application */
     position: fixed;    
+
+/* Fix disappearing nav soz Joe*/
+    z-index: 1; 
 }
 
 /* Navigation bar links CSS */
@@ -33,7 +36,6 @@
     line-height: 25px;
     border-radius: 4px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
 }
 
 /* CSS for main page content */
@@ -54,10 +56,6 @@
 
 
 
-
-
-
-
 /*LAWRENCE SECTION CSS*/
 .LawrenceSection {
     /*section appearance*/
@@ -72,7 +70,7 @@
     align-items: center;
 }
 
-.LawrenceSection .sectionStyle{
+.LawrenceSection{
     background-color: white;
     position: relative;
     display: flex;

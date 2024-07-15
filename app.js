@@ -1,5 +1,4 @@
 const form = document.querySelector("form");
-const lawrenceSection = document.getElementById("LawrenceForm");
 const slider = document.getElementById("slider");
 const spinBox = document.getElementById("spin");
 const moveBox = document.getElementById("move");
@@ -19,6 +18,13 @@ slider.value = 0;
 spinBox.checked = false;
 fastBox.checked = false;
 
+spinBox.addEventListener("change", function(event){
+    spin = spinBox.checked;
+});
+
+moveBox.addEventListener("change", function(event){
+    move = moveBox.checked;
+});
 
 fastBox.addEventListener("change", function(event){
     fast = fastBox.checked;

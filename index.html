@@ -24,6 +24,7 @@
 </header>
     <!-- HTML for main -->
 <main>
+    <form>
         <!-- Joe Section -->
         <section class = "JoeSection">
             <div class = "sectionStyle">
@@ -34,8 +35,18 @@
 
         <!-- Lawrence Section -->
         <section class = "LawrenceSection">
-            <div class = "sectionStyle">
+            <div class = "sectionStyle" id="LawrenceForm">
+                <label for="speed" >Speed</label>
+                <input id="slider" min="1" value="0" max="50" type="range">
+                <div>
+                    <label for="move" >Move?</label>
+                    <input name="move" id="move" type="checkbox"><br>
+                    <label for="spin" >Spin?</label>
+                    <input name="spin" id="spin" type="checkbox"><br>
+                </div>
             </div>
+            <label for="fast" id="fastLabel" hidden>Too slow?</label>
+            <input name="fast" id="fast" type="checkbox" hidden><br>
         </section>
 
 
@@ -47,6 +58,9 @@
             </div>
         </section>
 
+
+        <button type="submit">Submit</button>
+    </form>
 </main>
 
     <!-- HTML for footer -->

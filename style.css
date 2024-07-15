@@ -69,6 +69,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center; 
+    align-items: center;
+}
+
+.LawrenceSection .sectionStyle{
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
 }
 
 

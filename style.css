@@ -1,0 +1,119 @@
+/* Navigation bar & logo CSS */
+.navparent {
+/* Box model application */
+    width: 100%;
+    left: 10px;
+    height: 100px;
+    background-color: transparent;
+/* Flex application */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+/* Positioning application */
+    position: fixed;    
+}
+
+/* Navigation bar links CSS */
+.navchildren {
+/* Flex / Box model / Positioning application */
+    display: flex;
+    width: 30%;
+    top: 40px;
+    left: 220px;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: underline;
+    font-size: 22px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+/* CSS for main page content */
+
+/*JOE SECTION CSS*/
+.JoeSection {
+    /*section appearance*/
+    background-color: brown;
+    background-size: cover;
+    background-position: center center;
+
+    /*section content flex manipulation*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+
+
+
+
+
+
+
+/*LAWRENCE SECTION CSS*/
+.LawrenceSection {
+    /*section appearance*/
+    background-color: blueviolet;
+    background-size: cover;
+    background-position: center center;
+
+    /*section content flex manipulation*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+
+
+
+
+
+
+
+
+/*SuBHADRA SECTION CSS*/
+.SubhadraSection {
+    /*section appearance*/
+    background-color:teal;
+    background-size: cover;
+    background-position: center center;
+
+    /*section content flex manipulation*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sectionStyle {
+    /*sections dimensions*/
+    width: 400px;
+    height: 100vh;
+    /*flexbox manipulation for section*/
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* CSS for footer */
